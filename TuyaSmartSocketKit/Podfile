@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TuyaSmartSocketKit_Example' do
+  pod 'TuyaSmartSocketKit', :path => '../'
+
+  target 'TuyaSmartSocketKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
