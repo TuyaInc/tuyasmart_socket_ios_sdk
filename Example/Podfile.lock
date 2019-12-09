@@ -1,0 +1,21 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - TuyaSmartSocketKit (1.0.2):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - TuyaSmartSocketKit (= 1.0.2)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - CocoaAsyncSocket
+  https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git:
+    - TuyaSmartSocketKit
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  TuyaSmartSocketKit: 50687f5b2fff92ec14357f5cfdd4b0ed5a16ec60
+
+PODFILE CHECKSUM: 8df294187d9cd342cf2a1840ec5aae83ca621a11
+
+COCOAPODS: 1.8.0

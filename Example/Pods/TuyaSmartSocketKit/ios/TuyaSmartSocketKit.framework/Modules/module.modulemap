@@ -1,0 +1,6 @@
+framework module TuyaSmartSocketKit {
+  umbrella header "TuyaSmartSocketKit.h"
+
+  export *
+  module * { export * }
+}
