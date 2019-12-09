@@ -11,6 +11,5 @@ TuyaSmartSocketKit is iOS developer tool using tuyayun to iclond connect.
   s.source = { :http => "https://airtake-public-data.oss-cn-hangzhou.aliyuncs.com/smart/app/package/sdk/ios/#{s.name}-#{s.version}.zip", :type => "zip" }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'TuyaSmartSocketKit/Classes/**/*'
   s.dependency 'CocoaAsyncSocket'
 end
