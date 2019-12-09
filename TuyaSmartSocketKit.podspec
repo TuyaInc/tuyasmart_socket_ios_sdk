@@ -12,6 +12,7 @@ TuyaSmartSocketKit is iOS developer tool using tuyayun to iclond connect.
 
   s.static_framework          = true
   s.vendored_frameworks       = 'ios/*.framework'
+  s.libraries                 = 'c++', 'z'
   
   s.ios.deployment_target = '8.0'
   s.dependency 'CocoaAsyncSocket'
